@@ -36,6 +36,7 @@ const args = minimist(process.argv.slice(2));
     /* Here comes puppeteer logic: UI tests, screenshots, etc. */
 
     // Print page title
+    debugger;
     const pageTitle = await page.title();
     console.log('Page title:', pageTitle);
 
